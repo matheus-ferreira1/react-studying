@@ -13,9 +13,12 @@ function Counter() {
 
   return (
     <div className="counter">
-      <button className="button" type="button" onClick={decrement}>Decrementar</button>
-      <h2>{counter}</h2>
-      <button className="button" type="button" onClick={increment}>Incrementar</button>
+      <h2>useState</h2>
+      <div className="btn-wrapper">
+        <button className="button" type="button" onClick={decrement}>Decrementar</button>
+        <h3>{counter}</h3>
+        <button className="button" type="button" onClick={increment}>Incrementar</button>
+      </div>
     </div>
   )
 }
@@ -23,7 +26,7 @@ function Counter() {
 function MyPage() {
   return (
     <div>
-      <h1>Arquivo teste: estudo de hooks</h1>
+      <h1 className="pageTitle">Arquivo teste: estudo de hooks</h1>
     </div>
   )
 };

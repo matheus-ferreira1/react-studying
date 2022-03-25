@@ -10,13 +10,25 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  position: relative;
+}
+
+.pageTitle {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .counter {
   margin-top: 50px;
+}
+
+.btn-wrapper {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
 }
 
 .button {
